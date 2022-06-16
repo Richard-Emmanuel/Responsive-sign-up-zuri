@@ -42,16 +42,8 @@ body {
   justify-content: space-around;
   gap: 1.5rem;
   align-items: center;
-  background-image: url("../images/bg-intro-desktop.png");
+  background-image: url("images/bg-intro-desktop.png");
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-}
-
-@media screen and (max-width: 1023px) {
-  .wrapper {
-    flex-direction: column;
-    height: auto;
-    width: 80%;
-  }
 }
 
 .left {
@@ -92,40 +84,6 @@ body {
   height: 600px;
 }
 
-@media screen and (max-width: 1023px) {
-  .right {
-    flex: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .right .heading {
-    max-width: 100% !important;
-    text-align: center;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-
-  .right .form-group #form {
-    max-width: 100%;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  .right .form-group #form .btn {
-    width: 90% !important;
-    font-size: 12px !important;
-  }
-
-  .right .form-group #form p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-  }
-}
-
 .right .heading {
   max-width: 100%;
   background-color: var(--clr-blue);
@@ -157,7 +115,6 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-  /* DIV ENDS HERE*/
 }
 
 .right .form-group #form div {
@@ -257,4 +214,44 @@ body {
 
 .visible {
   display: block;
+}
+
+@media screen and (max-width: 1023px) {
+   .wrapper {
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+  }
+  
+  .right {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .right .heading {
+    max-width: 100% !important;
+    text-align: center;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .right .form-group #form {
+    max-width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .right .form-group #form .btn {
+    width: 90% !important;
+    font-size: 12px !important;
+  }
+
+  .right .form-group #form p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
 }
