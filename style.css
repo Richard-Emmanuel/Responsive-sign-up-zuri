@@ -29,19 +29,19 @@
 body {
   font-size: var(--fs-default);
   font-family: "Poppins", sans-serif;
+   background-image: url("images/bg-intro-desktop.png");
+  background-color: var(--clr-red);
 }
 
 .wrapper {
   margin: 0 auto;
   width: 1400px;
-  background-color: var(--clr-red);
   height: 800px;
   padding: 4rem;
   display: flex;
   justify-content: space-around;
   gap: 1.5rem;
   align-items: center;
-  background-image: url("images/bg-intro-desktop.png");
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
