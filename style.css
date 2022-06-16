@@ -32,8 +32,7 @@ body {
 }
 
 .wrapper {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 1400px;
   background-color: var(--clr-red);
   height: 800px;
@@ -220,7 +219,7 @@ body {
    .wrapper {
     flex-direction: column;
     height: auto;
-    width: 80%;
+    width: 100%;
   }
   
   .right {
